@@ -1,0 +1,469 @@
+# c = input("Enter a single character:")
+
+# if c in 'aeiouAEIOU':
+#     print("Its a vowel....")
+
+# elif c in '0123456789':
+#     print('Its a digit...')
+
+# elif c in '~!@#$%^&*()_+{}|?><':
+#     print('Its a special char')
+
+# else:
+#     print('its a consonant')
+
+
+
+"""Leap year"""
+
+# year = int(input("Enter year:"))
+
+
+# if year % 400 == 0 or (year % 4 == 0 and year % 100 != 0):
+#     print("It is a leap year...")
+
+# else:
+#     print("Not a leap year....")
+
+
+
+
+"""Second largest"""
+
+
+# x = int(input("Enter the first number :"))
+# y = int(input("Enter the second number :"))
+# z = int(input("Enter the third number :"))
+
+# largest = 0
+# second = 0
+
+# if x > y and x>z:
+#     largest = x
+
+#     if y > z:
+#         second = y
+#     else:
+#         second = z
+
+# elif y > x and y > z:
+#     largest = y
+
+#     if x > z:
+#         second = x
+#     else:
+#         second = z
+
+# else:
+#     largest = z
+
+#     if  x > y:
+#         second = x
+#     else:
+#         second = y
+
+# print("Second largest number is",second)
+
+
+# company = "Quest"
+
+
+# for a in company:
+#     print(a)
+
+# for s in "sreeraj":
+#     print("hi")
+
+# for i in :
+#     print('sree')
+
+
+# for i in range(5,20,20):
+#     print(i)
+
+
+
+# for i in range(5):
+#     for j in range(5):
+#         print(j,end=" ")
+#     print()
+
+
+
+# for i in range(9):
+#     if i == 3:
+#         break
+
+#     print(i)
+
+
+"""dictinoary"""
+
+
+# empty_dict = {}
+# print(type(empty_dict))
+
+# empty_dict2 = dict()
+# print(type(empty_dict2))
+
+# students = { 1 : 'amjith', 2 : 'vismaya', 3 : 'sreeraj', 1 : 'alan'}
+# print(students)
+
+# course = { 'A':'python', 'B':'JAVA', 'c':'JS'}
+# print(course)
+
+# print(course['B'])
+
+# check = { {1 :1 , 2 : 2} : 1, 2:2, 3:3}
+
+# """Key Check list - > int, str, float, tuple"""
+# print(check)
+
+
+# value_check = { 1 : {1 : 10, 2 : 20}, 2 : 2 , 3 : 3}
+# print(value_check)
+
+
+# marks = { 'maths' : 95, "chemistry" : 85, "science" : 90}
+# print(marks)
+
+# marks["malayalam"] = 100
+
+# print(marks)
+
+# marks["maths"] = 80
+# print(marks)
+
+
+# marks.update({'English': 100, 'IT' : 100})
+# print(marks)
+
+# list1 = [10,20,30]
+
+# print(dir(list1))
+
+# print(dir("Quest"))
+
+
+# d = { "fruits" : ['apple', 'banana'], 'price' : "Ten Rupees"}
+# print(d['fruits'])
+
+# d['fruits'].append('mango')
+
+# print(d)
+
+# print(d['price'].upper())
+
+
+# marks = { 'maths' : [95, 100], "chemistry" : 85, "science" : 90}
+
+
+# keys = ['name', 'age', 'place', 'phone']
+
+# new_dict = dict.fromkeys(keys, "unknown")
+
+# print(new_dict)
+
+
+
+# copy_dict = marks.copy()
+
+# print(copy_dict)
+
+# copy_dict['maths'].append(90)
+
+# print(copy_dict)
+
+# print(marks)
+
+
+
+
+
+
+
+
+# marks.clear()
+
+
+# print(marks)
+# print(marks.popitem())
+
+# print(marks.popitem())
+# marks.popitem()
+
+# marks.pop('chemistry')
+
+# del marks["malayalam"]
+
+# print(marks)
+
+
+# print(marks["maths"])
+
+# print(marks.get("malaylam"))
+
+# print(marks.keys())
+
+# print(marks.values())
+
+# print(marks.items())
+
+# for k in marks.items():
+#     print(k)
+
+
+
+# student = { 'name' : 'amjith', 'course' : 'python'}
+
+# result = student.setdefault("city", "Kochi")
+
+# print(result)
+
+# print(student)
+
+
+
+# s = "Python"
+
+# for i in range(len(s)):
+#     print(s[i])
+
+
+
+# print(s[ 0 : 3])
+# print(s[ 2 : 5])
+
+# print(s[ 0 : ])
+# print(s[  :  : 2])
+
+# print(s[ : : -1])
+
+# print(s[-1 : -4 : -1])
+
+
+
+# s = "malayalam"
+
+# print(dir(s))
+
+# reverse = s[ : : -1]
+
+# if s == reverse:
+#     print("palindrome")
+# else:
+#     print("not")
+
+
+
+# s = 'python'
+
+# print(s.upper())
+
+# print('PYTHON'.lower()) 
+
+# print("my name is sree".title())
+
+# print("this is a sentence".capitalize())
+
+# print("THIS is A swap CASE example".swapcase())
+
+
+
+"""searching and finding"""
+
+
+# sentence = "This is a test sentence"
+
+# print(sentence.find('i'))
+# print(sentence.rfind('i'))
+
+# print(sentence.index('i'))
+# print(sentence.rindex('i'))
+
+# print(sentence.count('t'))
+
+
+"""validation"""
+
+
+# print("ABC".isalpha())
+# print("2356".isdigit())
+
+# print("ABC235".isalnum())
+
+# print("        ".isspace())
+
+# print("ABC2356".isupper())
+
+# print("abc253---".islower())
+
+# print("My Name Is Sreeraj".istitle())
+
+# print("My Name Is Sreeraj".startswith("My Name"))
+
+# print("My Name Is Sreeraj".endswith("Sreeraj"))
+
+# print("sreeraj@gmail.com".endswith('@gmail.com'))
+
+
+
+"""modification and replacement"""
+
+# print("Python is a high level prgrming language. Python supports multiple programming paradigm.".replace(" ","-",2))
+
+
+# print("---------------------sree   raj--------------------------".strip('-'))
+# print("---------------------sree   raj--------------------------".lstrip('-'))
+# print("---------------------sree   raj--------------------------".rstrip('-'))
+
+
+
+"""spliting and joining"""
+
+
+# string = "adhi,malavika,harshadh,sreeraj"
+
+# result = string.split(',')
+
+# print(result)
+
+
+# joined_string = "=".join(result)
+
+# print(joined_string)
+
+
+
+# names = input("Enter student names seperated by Comma:")
+
+
+# splited = names.split(',')
+
+# print(splited)
+
+# joined = " ".join(splited)
+
+# print(joined)
+
+
+# """escape sequence"""
+
+# print("Python\rJava")
+
+
+
+
+"""Data Structures"""
+# empty_list = [ ]
+# print(type(empty_list))
+
+
+# empty_list2 = list()
+# print(type(empty_list2))
+
+
+# students = ['malavika','harshadh','adhi',25,True,25.25, 25,True]
+# print(students)
+# print(len(students))
+
+
+# print(students[2])
+# print(students[-3])
+
+# print(students[ : : -2])
+
+
+# for s in students:
+#     print(s)
+
+
+
+# sample = [2,3,5]
+
+# print(3 in sample)
+
+# sample2 = [2,3,5]
+
+# print(sample == sample2)
+
+# print(id(sample2))
+# print(id(sample))
+
+# print(sample is sample2)
+
+
+# sample *= 3
+
+# sample += [200,300,500]
+
+# sample += 'Quest'
+
+# print(sample)
+
+
+
+# numbers = [200,900,800,300,600,500,600]
+
+# total = sum(numbers)
+
+# print(total)
+
+# print(max(numbers))
+
+# print(min(numbers))
+
+
+
+
+
+
+
+
+
+
+
+# sample = [3000,9000]
+
+# sample.extend(numbers)
+
+# print(sample)
+
+
+
+# numbers.sort(reverse=True)
+
+# print(numbers.count(600))
+
+
+# copy_list = numbers.copy()
+
+# print(copy_list)
+
+
+# numbers.clear()
+
+# numbers.remove(500)
+
+# numbers.pop()
+
+# print(dir(numbers))
+
+# numbers.append(700)
+# numbers.insert(3,800)
+# print(numbers)
+
+
+
+
+# numbers = [20,30,50, [200,300,500,[2000,3000,5000,6000,8000]]]
+
+# print(numbers[3][3][3])
+
+
+
+# for i in range(20):
+#     numbers.append(i)
+
+
+
