@@ -467,3 +467,88 @@
 
 
 
+# student = { 'id' : 202, 'name' : 'sree', 'course' : 'python', 2 : 'int', 20.25 : 'float',(20,30):'tuple', True:'True'}
+# print(student)
+
+# print(student['name'])
+# print(student['age'])
+
+
+# fruits = { 'A' : 'Apple', 'B':'Banana','C': 'Chikku'}
+
+# # fruits.pop('A')
+
+# fruits.popitem()
+
+# print(fruits)
+
+
+
+
+
+
+# fruits.update({'M':'Mango', 'P':'pineapple'})
+# print(fruits)
+
+# print(fruits['B'])
+
+# print(fruits.get('x'))
+
+
+# fruits['D'] ="Dragon Fruit"
+# print(fruits)
+
+# fruits['A'] = 'Anaar'
+# print(fruits)
+
+# for k,v in fruits.items():
+#     print(k,v)
+
+
+
+
+# students = {
+#     202 : {'name':'Adhi','course':'Python','marks': [95,30,78]},
+#     203 : {'name':'Maalu','course':'JAVA'}
+# }
+
+# print(students[202]['marks'])
+
+# students[202]['marks'].append(200)
+
+# print(students[202])
+
+
+
+
+
+# numbers = {}
+
+# for i in range(1,11):
+#     numbers[i] = i**2
+
+# print(numbers)
+
+# square = { i : i**2 for i in range(1,11)}
+
+# print(square)
+
+
+
+# strings = ['adhi', 'maalu', 'harshadh', 'sreee']
+
+# lenDict = { i : len(i) for i in strings }
+# print(lenDict)
+
+# print(list(lenDict.values()))
+
+
+
+numbers = [20,3,8,9,5,3,5,8,5,625,52,5]
+
+evenOdd = { i : 'Even' if i % 2 == 0 else 'ODD' for i in numbers}
+print(evenOdd)
+
+# evenSquare = { i : i**2 for i in numbers if i % 2 == 0}
+
+# print(evenSquare)

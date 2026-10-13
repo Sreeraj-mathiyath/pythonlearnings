@@ -191,5 +191,165 @@
 # print(t[::-1])
 
 
-t = (2,35,8,9,2,5,8,9,2,7,5,85,8,2,8,5852,85,2)
-print(t.index(8,8))
+# t = (2,35,8,9,2,5,8,9,2,7,5,85,8,2,8,5852,85,2)
+# print(t.index(8,8))
+
+
+
+
+# age = int(input("Enter your age:"))
+
+# if age >= 18:
+#     print("You are eligible for voting")
+# else:
+#     print("You are not eligible..")
+
+
+
+# number = int(input("Enter a number:"))
+
+# if number > 0:
+#     print("positive")
+# else:
+#     print("Negative/Zero")
+
+# if number < 0:
+#     print("Negative")
+# else:
+#     print("Postive/Zero")
+
+# if number == 0:
+#     print("Zero")
+# else:
+#     print("Postive/negative")
+
+
+
+
+# if number > 0:
+#     print("positive")
+# else:
+#     print("negative")
+
+# if number % 2 == 0:
+#     print("Even number")
+# else:
+#     print("Odd number")
+
+
+
+# num = int(input("Enter a number:"))
+
+# if num > 0:
+#     print("Postive")
+# elif num < 0:
+#     print("Negative")
+# else:
+#     print("Zero")
+
+
+
+
+# """Grade System"""
+# mark = int(input("Enter your mark:"))
+
+# if mark > 100 or mark < 0:
+#     print("Enter a valid mark...")
+
+# elif mark > 90:
+#     print("A Grade")
+
+# elif mark > 80:
+#     print("B Grade")
+
+# elif mark > 70:
+#     print("C Grade")
+
+# elif mark >60:
+#     print("D grade") 
+
+# else:
+#     print("Failed")
+
+
+
+# username = 'sreeraj_mathiyath'
+# password = 'sree6585'
+
+
+# u_name = input("Enter your user name:")
+# u_pass = input("Enter your password:")
+
+
+# if u_name == username:
+#     if u_pass == password:
+#         print("Login Successful....")
+#     else:
+#         print("Incorrect password...")
+# else:
+#     print("Invalid username...")
+
+
+# name = 'nasif'
+
+# for i in range(5):
+#     mark = int(input("Enter your mark:"))
+
+
+# numbers = range(20)
+# print(numbers)
+
+
+
+# company = 'Qis'
+
+# print(len(company))
+
+# for i in company:
+#     print(i)
+
+
+# number = 23569
+# for i in number:
+#     print(i)
+
+
+
+# for i in range(10,0,-2):
+#     print(i)
+
+
+# name = 'sree'
+
+# for i in name:
+#     print(name)
+
+
+# comapny = "QIS"
+
+# for i in comapny:
+#     print(i)
+
+
+
+# limit = int(input("Enter your limit:"))
+
+# for i in range(1, limit+1):
+#     if i % 5 == 0:
+#         print(i)
+
+
+# for number in range(1,11):
+#     print(number**2)
+
+
+
+# value = int(input("Enter a value:"))
+
+# for i in range(1,11):
+#     print(f"{i} * {value} = {i*value}")
+
+
+# import My_module.calculations
+
+# print(My_module.calculations.add(20,80))

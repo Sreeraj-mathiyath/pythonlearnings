@@ -1500,9 +1500,216 @@ students = ['alisha','amjith','alan','Vismaya','vismaya','alisha','abc','ABC','X
 
 
 
-def fact(n):
-    if n == 1:
-        return 1
-    return n * fact(n-1)
+# def fact(n):
+#     if n == 1:
+#         return 1
+#     return n * fact(n-1)
 
-print(fact(5)) # 5*4*3*2*1
+# print(fact(5)) # 5*4*3*2*1
+
+
+# def add(num1 , num2):
+#     return num1 + num2
+
+# print(add(20,40))
+
+
+
+# total = lambda num1, num2 : num1 + num2
+
+# result = total(50,40)
+
+# print(result)
+
+
+# square = lambda x,y,z : x**2
+
+# print(square(5))
+# print(square(8))
+
+
+
+# to_upper = lambda s: s.upper()
+
+# print(to_upper("python"))
+# print(to_upper("Quest"))
+
+
+# even_or_odd = lambda number : "Even" if number % 2 == 0 else "odd"
+
+# print(even_or_odd(20))
+# print(even_or_odd(21))
+
+
+# largest = lambda num1, num2 : f"largest number = {num1}" if num1 > num2 else f"largest number = {num2}"
+
+# print(largest(80,90))
+
+
+"""higher order functions"""
+
+
+# def add(a, b):
+#     return a + b
+
+# def multiply(a,b):
+#     return a * b
+
+
+# def calculate(a, b, func):
+#     return func(a, b)
+
+# print(calculate(a =20,b=30, func=add))
+
+# print(calculate(20,30, multiply))
+
+
+
+
+
+
+# numbers = [i for i in range(1,11)]
+
+# print(numbers)
+
+
+# def square(x):
+#     return x**2
+
+
+# result = list(map(square, numbers))
+
+# print(result)
+
+
+
+# students = ['alan','alisha','vismaya']
+
+# result = list(map(lambda s : s.upper(), students))
+# print(result)
+
+
+# prices = [ 999,899,599, 299]
+
+# discount = list(map(lambda p : p - 100,prices))
+
+# print(discount)
+
+
+
+
+# numbers1 = [1,2,3,4]
+
+# numbers2 = [10,20,30,40]
+
+# # result = [11,22,33,44]
+
+# result = list(map(lambda num1, num2: num1+num2, numbers1, numbers2))
+# print(result)
+
+
+# numbers = [20,40,58,55882,7,9,20]
+
+# result =list(filter(lambda x : x % 2 == 0, numbers))
+# print(result)
+
+
+# names = [ 'anu', 'ammu', 'alan', 'alisha', 'vismaya', 'anil']
+
+# s = list(filter(lambda n : len(n) > 4, names))
+
+# print(s)
+
+
+
+# """Get even number and Square them"""
+
+# numbers = [ 1,2,3,4,5 ]
+
+# even = list(filter(lambda x : x % 2 == 0 , numbers))
+
+# print(even)
+
+# square = list(map(lambda x : x**2,even))
+
+# print(square)
+
+# result = list(map(lambda x : x**2,filter(lambda x : x % 2 == 0 ,numbers)))
+
+# print(result)
+
+
+# from functools import reduce
+
+
+# # sample = [1,2,3,4,5,6]
+
+# # result = reduce(lambda x , y : x * y, sample)
+
+# # print(result)
+
+
+# numbers = [ 82,98,200,145,6250,7895,2568,1478 ]
+
+# result = reduce(lambda x, y : x if x > y else y, numbers)
+# print(result)
+
+
+
+
+
+"""Decorator"""
+
+# def my_decorator(func):
+#     def wrapper():
+#         print("Before Function Execution")
+#         func()
+#         print("After Function Execution")
+#     return wrapper
+
+# @my_decorator
+# def greet():
+#     print("Welcome to Python Programming...")
+
+# greet()
+
+# def calcluate(func):
+#     def modify(a , b):
+#         print("The difference =", a - b)
+#         result = func(a,b)
+#         print("Product = ", a * b)
+#         return result
+#     return modify
+
+
+
+
+# @calcluate
+# def add(a , b):
+#     return a + b
+
+# print(add(20,70))
+
+
+
+
+def outer():
+
+    x = 20
+
+    def inner():
+        nonlocal x
+        x += 20
+        print(x)
+        print("This is the inner function")
+
+    inner()
+    print(x)
+        
+    print("This is Outer Function")
+
+    
+
+outer()
+
+    
