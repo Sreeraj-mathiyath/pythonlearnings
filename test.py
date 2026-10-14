@@ -544,11 +544,38 @@
 
 
 
-numbers = [20,3,8,9,5,3,5,8,5,625,52,5]
+# numbers = [20,3,8,9,5,3,5,8,5,625,52,5]
 
-evenOdd = { i : 'Even' if i % 2 == 0 else 'ODD' for i in numbers}
-print(evenOdd)
+# evenOdd = { i : 'Even' if i % 2 == 0 else 'ODD' for i in numbers}
+# print(evenOdd)
 
 # evenSquare = { i : i**2 for i in numbers if i % 2 == 0}
 
 # print(evenSquare)
+
+
+
+# def greet(name):
+#     print(f"Welcome {name}")
+
+
+# greet('adhi')
+# greet('harshadh')
+# greet('malavika')
+
+
+
+
+# def get_details(name, age, place):
+#     print(f"Name : {name}\nAge : {age}\nPlcae : {place}")
+
+
+# name = input("Enter Your name:")
+
+# age = input("Enter your age:")
+
+# place = input("Enter Your place:")
+
+
+# get_details(name,age, place)
+

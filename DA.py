@@ -353,3 +353,71 @@
 # import My_module.calculations
 
 # print(My_module.calculations.add(20,80))
+
+
+# for i in range(1,21):
+#     print(i)
+
+
+""" print integers from 1 to 20"""
+# i = 1
+
+# while i <= 20:
+#     print(i)
+#     i += 1
+
+
+
+"""Print intergers upto a limit"""
+
+# value = 0
+# limit = int(input("Enter a limit:"))
+
+# while value<= limit:
+#     print(value)
+#     value += 1
+
+
+
+
+
+# limit = int(input("Enter a limit:"))
+
+# for i in range(limit+1):
+#     print(i)
+
+
+
+
+"""print integers from 20 - 0"""
+# i = 20
+
+# while i > 0:
+#     print(i)
+#     i -= 1
+    
+
+
+# for i in range(1,11):
+#     print(f"{i} * 2 = {i*2}")
+
+
+"""Multiplication table using while loop"""
+
+# value = int(input("Enter a value:"))
+
+# i = 1
+
+# while i <= 10:
+#     print(f"{i} * {value} = {i*value}")
+#     i += 1
+
+
+"""Sum of first 10 integers"""
+
+total = 0 # 0 + 1 = 1, 1 + 2 = 3, 3 + 3 = 6, 6 + 4 =10
+
+for i in range(1,11):
+    total += i # total = total + i
+
+    print(total)
