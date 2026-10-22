@@ -415,9 +415,91 @@
 
 """Sum of first 10 integers"""
 
-total = 0 # 0 + 1 = 1, 1 + 2 = 3, 3 + 3 = 6, 6 + 4 =10
+# total = 0 # 0 + 1 = 1, 1 + 2 = 3, 3 + 3 = 6, 6 + 4 =10
 
-for i in range(1,11):
-    total += i # total = total + i
+# for i in range(1,11):
+#     total += i # total = total + i
 
-    print(total)
+#     print(total)
+
+
+# for i in range(20):
+#     pass
+    
+
+
+# def reel():
+#     pass
+
+
+# if 25 > 2:
+#     pass
+
+
+
+# for i in range(20):
+#     if i == 9:
+#         continue
+#     else:
+#         print(i)
+
+
+
+# name = "haseefa"
+
+# student = 'anu'
+
+# print(student[0])
+# print(student[3])
+# print(name[0])
+
+# print(name[3])
+
+# print(name[7])
+
+# print(len(name))
+
+# i = 0
+
+# while i <= len(name):
+#     print(name[i])
+#     i += 1
+
+
+
+
+
+
+
+# for i in name:
+#     pass
+
+
+# # for i in name:
+# #     if i == 'e':
+# #         continue
+# #     print(i)
+# # else:
+# #     print("Loop completed")
+
+
+
+
+# string = "haseefa"
+
+# reverse = ''
+
+# for i in string:
+#     reverse = i + reverse 
+# print(reverse)
+
+
+
+
+
+# count = 0
+
+# for i in string:
+#     count += 1
+
+# print(count)

@@ -579,3 +579,288 @@
 
 # get_details(name,age, place)
 
+
+
+# def get_details(name='malavika',age=20):
+#     print(f"Name: {name}\nAge : {age}")
+
+
+# get_details('adhi',30)
+
+
+
+
+# def add(*args, **kwargs):
+#     print(args)
+#     print(kwargs)
+
+# add(20,30, x= 80,y =90)
+
+
+
+# def to_upper(s : str)->str:
+#     """This function recieves a string - s and returns its uppercase format"""
+#     print(s.upper())
+
+# to_upper('adhi')
+
+
+# def add(x : int, y : int)->int:
+#     print(x+y)
+
+
+
+
+
+# def add(a, b):
+#     """
+#     This function adds two numbers and returns the result.
+    
+#     Parameters:
+#         a (int/float): First number
+#         b (int/float): Second number
+
+#     Returns:
+#         int/float: Sum of a and b
+#     """
+#     return a + b
+
+# print(add.__doc__)
+
+
+
+
+
+# file = open(r"C:\Users\HP\OneDrive\Desktop\Python_Conditional_Statements_Lab_Questions.txt",'r')
+
+# """read content"""
+
+# data = file.read()
+# print(data)
+
+# # file.write("New data inserted")
+# # file.write("Quest innovative solutions")
+
+# file.close()
+
+
+
+# with open("Python_If_Conditional_Lab_Questions.txt",'w') as file:
+#     # print(file.read())
+#     file.write("data")
+
+
+
+# with open("exam.txt",'w') as f:
+#     f.write("Exam data")
+
+# with open("python_learnings.py",'w') as p:
+#     p.write("name = \"sree\"")
+
+
+# with open("test_file.txt", 'r') as f:
+#     f.read()
+
+
+# with open("exam.txt", 'r+') as f:
+#     print(f.tell())
+    
+#     # print(f.seek())
+#     # print(f.read())
+#     f.write("New data")
+#     f.write("\nQuest innovative solutions")
+    
+#     f.write("Test data")
+#     print(f.tell())
+#     print(f.read())
+
+
+
+# with open("python_learnings.py",'r+') as f:
+#     print(f.tell()) # 0
+#     print(f.read())
+#     print(f.tell()) # last index
+#     print(f.read()) # empty string
+
+#     f.seek(0)
+#     print(f.tell()) # 0
+#     print(f.read())
+
+
+
+
+# with open("exam.txt", 'w+') as f:
+#     print(f.tell())
+
+#     print(f.read())
+
+
+# with open('zzzzzzzzzzzz.txt','w+') as f:
+#     print(f.tell())
+
+    # f.write("Write + read mode")
+
+    # print(f.tell())
+
+    # print(f.read())
+
+    # f.seek(0)
+    # print(f.read())
+
+
+
+# with open("students.txt", 'a+') as f:
+#     print(f.tell())
+#     print(f.write("vismaya"))
+#     print(f.tell())
+
+#     f.seek(0)
+#     print(f.read())
+
+
+# with open("studentsNew2.txt",'x+') as file:
+#     file.write("Sample text..")
+#     file.seek(0)
+#     print(file.read())
+
+
+
+
+# with open('DA.py','rb') as f:
+#     print(f.read())
+
+
+# with open('Tony Stark_ Cinematic Marbled Poster.png','rb') as f:
+#     print(f.read())
+
+
+# students = ['\njoshua\n','hari\n','jhon']
+
+
+# with open('exam.txt','a+') as file:
+#     # file.write(students)
+#     file.writelines(students)
+
+
+#     # print(file.readable())
+#     # print(file.writable())
+#     # print(file.seekable())
+
+#     # print(file.read())
+#     # data = file.read()
+#     # print(data)
+#     # print(file.readline(6))
+#     # print(file.readline())
+#     # print(file.readline())
+
+#     # print(file.readlines(10))
+
+
+""" inbuilt file method
+1.read()
+2.write()
+3.readline()
+4.readlines()
+5.writelines()
+6.seek()
+7.tell()
+8.readable()
+9.writable()
+10.seekable()
+11.close()
+"""
+
+# with open('exam.txt','r+') as file:
+#     print(file.readlines(30))
+
+
+
+
+
+# def add(x, y):
+#     return x+y
+    
+
+
+
+# print(add(20,30))
+
+# result = add(20,30)
+
+# print(result)
+
+
+
+
+# def check(value):
+#     if value % 2 == 0:
+#         return "even"
+#     else:
+#         return "Odd"
+
+# result = check(20)
+# print(result)
+
+# print(check(20))
+
+
+# def fact(n):
+#     if n == 1:
+#         return 1
+
+#     return n * fact(n-1)
+
+
+# print(fact(5))
+
+
+
+# def count(n):
+#     if n == 0:
+#         return
+
+#     print(n)
+
+#     return count(n-1)
+
+# count(5)
+
+
+
+# def add(x , y):
+#     return x + y
+
+# total = lambda a,b: a+b
+
+# print(total(5,2))
+
+
+
+# even_odd = lambda n : "even" if n % 2 == 0 else "Odd"
+
+# print(even_odd(25))
+# print(even_odd(20))
+
+
+
+def add(x,y):
+    return x+y
+
+
+def multiply(x,y):
+    return x*y
+
+def subtract(x,y):
+    return x-y
+
+
+def calculate(x,y,func):
+    return func(x,y)
+
+
+print(calculate(20,30,add))
+
+print(calculate(20,30,multiply))
+
+print(calculate(20,30,subtract))
+
